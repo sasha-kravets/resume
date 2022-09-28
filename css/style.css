@@ -288,6 +288,10 @@ main {
   border: 0.1px solid #ADB0B1;
   border-radius: 10px; }
 
+._last {
+  padding-left: 35px;
+  padding-right: 35px; }
+
 .training__container {
   margin-top: 2.6rem; }
 
@@ -324,9 +328,12 @@ main {
   .item__img {
     -webkit-box-flex: 0;
     -ms-flex: 0 1 2.79%;
-    flex: 0 1 2.79%; }
+    flex: 0 1 2.79%;
+    -ms-flex-item-align: start;
+    align-self: flex-start; }
     .item__img img {
-      width: 100%; }
+      width: 100%;
+      margin-top: 5px; }
     @media (max-width: 767.98px) {
       .item__img img {
         min-width: 1.5rem; } }
@@ -334,4 +341,5 @@ main {
     font-weight: 300;
     font-size: 1.66rem;
     line-height: 1.24;
-    color: #ADB0B1; }
+    color: #ADB0B1;
+    max-width: 600px; }
