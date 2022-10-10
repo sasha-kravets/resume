@@ -145,7 +145,7 @@ main {
   font-size: 3.5rem;
   font-weight: 700;
   line-height: 1.24;
-  color: #fff; }
+  color: #e9e9e9; }
   @media (max-width: 991.98px) {
     .text-header__name {
       font-size: 3rem;
@@ -180,7 +180,7 @@ main {
   font-weight: 600;
   font-size: 1.66rem;
   line-height: 1.24;
-  color: #fff;
+  color: #e9e9e9;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s; }
@@ -220,7 +220,7 @@ main {
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s; }
   .contact__link a:hover {
-    color: #fff; }
+    color: #e9e9e9; }
 
 .education__container {
   margin-top: 3.668rem; }
@@ -229,7 +229,7 @@ main {
   font-weight: 700;
   font-size: 2.29rem;
   line-height: 1.24;
-  color: #fff; }
+  color: #e9e9e9; }
   @media (max-width: 767.98px) {
     .education__title {
       text-align: center; } }
@@ -258,7 +258,7 @@ main {
 .tech__title {
   font-size: 2.29rem;
   line-height: 1.24;
-  color: #fff; }
+  color: #e9e9e9; }
   @media (max-width: 767.98px) {
     .tech__title {
       text-align: center; } }
@@ -299,7 +299,7 @@ main {
   font-weight: 700;
   font-size: 2.29rem;
   line-height: 1.24;
-  color: #fff; }
+  color: #e9e9e9; }
   @media (max-width: 767.98px) {
     .training__title {
       text-align: center; } }
@@ -341,5 +341,4 @@ main {
     font-weight: 300;
     font-size: 1.66rem;
     line-height: 1.24;
-    color: #ADB0B1;
-    max-width: 600px; }
+    color: #ADB0B1; }
