@@ -125,6 +125,9 @@ main {
     border-radius: 50%;
     -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+    @media (max-width: 767.98px) {
+      .header__photo img {
+        width: 60%; } }
 
 .header__text {
   display: -webkit-box;
@@ -263,21 +266,43 @@ main {
     .tech__title {
       text-align: center; } }
 
-.tech__items {
+.tech__row1 {
   margin-top: 1.6rem;
-  margin-left: 3.93rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   gap: 1.56rem; }
   @media (max-width: 767.98px) {
-    .tech__items {
+    .tech__row1 {
       margin-left: 0;
       -webkit-box-pack: center;
       -ms-flex-pack: center;
-      justify-content: center; } }
+      justify-content: center;
+      text-align: center; } }
+
+.tech__row2 {
+  margin-top: 1.6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 1.56rem; }
+  @media (max-width: 767.98px) {
+    .tech__row2 {
+      margin-left: 0;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      text-align: center; } }
 
 .tech__item {
   font-weight: 200;
@@ -287,10 +312,6 @@ main {
   padding: 8px 17px;
   border: 0.1px solid #ADB0B1;
   border-radius: 10px; }
-
-._last {
-  padding-left: 35px;
-  padding-right: 35px; }
 
 .training__container {
   margin-top: 2.6rem; }
